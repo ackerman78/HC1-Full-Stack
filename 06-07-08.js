@@ -5,7 +5,6 @@
   No comentar la funcion 
 */
 function crearClaseEmprendedor() {
-  const _private = new WeakMap()
   class Emprendedor {
       constructor(nombre, apellido, libros, mascotas) {
           // El constructor de la clase Emprendedor recibe nombre (string), apellido (string), libros (array de objetos), mascotas (array de strings)
